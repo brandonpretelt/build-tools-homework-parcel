@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <h1> To Do App of Sorts </h1>
+            <h2> Add An Item That Needs to Be Done</h2>
+            <figure>
+                <img src="./21bc5709b41865d63989.png" alt="test">
+            </figure>
+            <form>
+                <label for="todo">Add your item:</label>
+                <input type="text" id="todo" name="todo" placeholder="e.g. walk the dog...">
+                <button data-btn class="btn">Add!</button>
+            </form>
+            <section class="checklist-container">
+                <div class="current-todos">
+                    <h2> Things That Need To Be Done </h2>
+                </div>
+                <div class="finished-todos">
+                    <span class="message hidden"> Item cleared... </span>
+                    <h2>Things That Have Been Done</h2>
+                    <p> Double click to clear item </p>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
