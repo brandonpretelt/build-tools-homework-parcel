@@ -1,5 +1,3 @@
-import './css/styles.css';
-
 const todoForm = document.querySelector('form');
 const currentTodos = document.querySelector('.current-todos');
 const finishedTodos = document.querySelector('.finished-todos');

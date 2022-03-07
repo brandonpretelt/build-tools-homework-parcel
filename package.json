@@ -1,0 +1,25 @@
+{
+    "name": "build-tools-homework-parcel",
+    "version": "1.0.0",
+    "description": "This assignment is using Parcel.",
+    "source": "src/index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "parcel",
+        "build": "parcel build --no-source-maps"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brandonpretelt/build-tools-homework-parcel.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/brandonpretelt/build-tools-homework-parcel/issues"
+    },
+    "homepage": "https://github.com/brandonpretelt/build-tools-homework-parcel#readme",
+    "devDependencies": {
+        "parcel": "^2.3.2"
+    }
+}
